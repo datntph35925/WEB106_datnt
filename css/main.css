@@ -1,0 +1,22 @@
+#menu{
+    background-color: blanchedalmond;
+    display: flex;
+}
+
+#menu a{
+    display: inline-block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-with: 768px) {
+    #menu{
+        background-color: lightpink;
+        display: none;
+        text-align: center;
+        flex-direction: column;
+    }
+}
