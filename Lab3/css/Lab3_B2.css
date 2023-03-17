@@ -1,0 +1,51 @@
+.contaner {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.item {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.img-1 {
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+}
+
+.img-avt {
+    margin-left: 6px;
+    width: 54px;
+    height: 48px;
+    border-radius: 50%;
+    float: left;
+}
+
+.end {
+    clear: both;
+    border-top: 1px solid black;
+}
+
+.live {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    background-color: #F66092;
+    width: 5rem;
+    height: 40px;
+    margin: 5px;
+    border: 0;
+    border-radius: 6px;
+    color: white;
+}
+
+@media screen and (max-width : 600px) {
+    .contaner{
+        flex-wrap: wrap;
+    }
+
+}
