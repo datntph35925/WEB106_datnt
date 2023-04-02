@@ -1,0 +1,8 @@
+/* .carousel-item{
+    height: 35rem;
+} */
+
+.contaner-flex{
+    display: flex;
+    justify-content: space-around;
+}
