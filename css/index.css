@@ -1,15 +1,15 @@
 .navbar>.container-fluid{
-    margin-left: 1.5em;
-    margin-right: 1.5em;
+    margin-left: 7.5em;
+    margin-right: 7.5em;
 }
 
 @font-face {
     font-family: abc;
     src: url(./../Pacifico/Pacifico-Regular.ttf);
 }
-/* .carousel-item{
-    height: 35rem;
-} */
+.banner{
+    margin-top: 3.5em;
+}
 
 body{
     font-family: abc!important;
@@ -36,11 +36,38 @@ body{
 .img-banner{
     height: 37rem;
 }
-@media screen and (max-width: 480px) {
+
+.footer-titel{
+    display: block;
+}
+@media screen and (max-width: 390px) {
     .img-banner{
         height: 15rem;
     }
 
+    .navbar>.container-fluid{
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+    }
+
+    .footer-titel{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .footer-titel{
+        display: none;
+    }
+
+    .navbar>.container-fluid{
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+    }
+
+    .img-banner{
+        height: 15rem;
+    }
 }
 
 
