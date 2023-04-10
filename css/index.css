@@ -1,73 +1,92 @@
-.navbar>.container-fluid{
+.navbar>.container-fluid {
     margin-left: 7.5em;
-    margin-right: 7.5em;
+    margin-right: 7em;
 }
 
 @font-face {
     font-family: abc;
     src: url(./../Pacifico/Pacifico-Regular.ttf);
 }
-.banner{
+
+.banner {
     margin-top: 3.5em;
 }
 
-body{
-    font-family: abc!important;
+body {
+    font-family: abc !important;
 }
 
-.font{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.img-aboutus{
+.img-aboutus {
     border-radius: 50%;
 }
 
-.bestseller{
+.bestseller {
     width: 100%;
     background-color: #fbf0e5;
 }
 
-.img-bestseller{
+.img-bestseller {
     width: 7em;
     height: 7em;
 }
 
-.img-banner{
+.img-banner {
     height: 37rem;
 }
 
-.footer-titel{
+.footer-titel {
     display: block;
 }
-@media screen and (max-width: 390px) {
-    .img-banner{
+
+.img-lienhe {
+    width: 41.5rem;
+    height: 24.5rem;
+}
+
+.content-contact{
+    padding-left: 3rem;
+}
+
+@media screen and (max-width: 480px) {
+    .img-banner {
         height: 15rem;
     }
 
-    .navbar>.container-fluid{
+    .navbar>.container-fluid {
         margin-left: 1.5em;
         margin-right: 1.5em;
     }
 
-    .footer-titel{
+    .footer-titel {
         display: none;
     }
+
+    /* .img-lienhe {
+        width: 22.5rem;
+        height: 11rem;
+    } */
 }
 
 @media screen and (max-width: 990px) {
-    .footer-titel{
+    .footer-titel {
         display: none;
     }
 
-    .navbar>.container-fluid{
+    .navbar>.container-fluid {
         margin-left: 1.5em;
         margin-right: 1.5em;
     }
 
-    .img-banner{
-        height: 15rem;
+    .img-banner {
+        height: 18rem;
     }
+
+    .content-contact{
+        padding-left: 1rem;
+    }
+
+    /* .img-lienhe {
+        width: 22.5rem;
+        height: 11rem;
+    } */
 }
-
-
