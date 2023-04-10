@@ -26,8 +26,9 @@ body {
 }
 
 .img-bestseller {
-    width: 7em;
-    height: 7em;
+    border-radius: 4%;
+    width: 14em;
+    height: 14em;
 }
 
 .img-banner {
@@ -45,6 +46,11 @@ body {
 
 .content-contact{
     padding-left: 3rem;
+}
+
+.img-content{
+    width: 10rem;
+    height: 10rem;
 }
 
 @media screen and (max-width: 480px) {
